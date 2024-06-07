@@ -54,4 +54,5 @@ You have successfully installed ERPNext v15 on your Windows machine using WSL. I
 
 ---
 
-**Note**: All password prompts in the preconfigured image file use "frappe" (e.g., user, MariaDB, administrator).
+> [!NOTE]
+> All password prompts in the preconfigured image file use "frappe" (e.g., user, MariaDB, administrator).
