@@ -40,7 +40,7 @@ This guide will help you install ERPNext v15 on a Windows machine using Windows 
 
 4. Save the file.
 
-### 5. Access the ERPNext Site
+### 5. Access and setup default ERPNext Site
 
 1. Open your web browser.
 2. Navigate to `http://test.erpnext.local:8001`.
