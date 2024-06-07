@@ -59,7 +59,7 @@ This guide will help you install ERPNext version-15 on a Windows machine using W
 
 ## Conclusion
 
-You have successfully installed ERPNext v15 on your Windows machine using WSL. If you encounter any issues or need further assistance, please refer to the official ERPNext documentation or community forums. The preconfigured file is based on [this GitHub repository](https://github.com/D-codE-Hub/-Frappe-ERPNext-Version-15--in-Ubuntu-24.04-LTS) with additional configurations, such as setting it up as production and using port-based multitenancy.
+You have successfully installed ERPNext version-15 on your Windows machine using WSL. If you encounter any issues or need further assistance, please refer to the official ERPNext documentation or community forums. The preconfigured file is based on [this GitHub repository](https://github.com/D-codE-Hub/-Frappe-ERPNext-Version-15--in-Ubuntu-24.04-LTS) with additional configurations, such as setting it up as production and using port-based multitenancy.
 
 ---
 
