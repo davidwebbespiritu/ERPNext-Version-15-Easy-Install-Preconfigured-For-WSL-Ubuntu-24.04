@@ -51,9 +51,9 @@ This guide will help you install ERPNext v15 on a Windows machine using Windows 
 ## Conclusion
 
 You have successfully installed ERPNext v15 on your Windows machine using WSL. If you encounter any issues or need further assistance, please refer to the official ERPNext documentation or community forums.
-The preconfigure file is base on https://github.com/D-codE-Hub/-Frappe-ERPNext-Version-15--in-Ubuntu-24.04-LTS with some extra added configure like setted it up as production
+The preconfigure file is base on https://github.com/D-codE-Hub/-Frappe-ERPNext-Version-15--in-Ubuntu-24.04-LTS with some extra added configure like setted it up as production and using port base multitenancy
 
 ---
 
-**Note**: All password prompts during the installation will use "frappe" (e.g., user, MariaDB, administrator).
+**Note**: All password prompts in the preconfigure image file use "frappe" (e.g., user, MariaDB, administrator).
 
