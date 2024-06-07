@@ -1,6 +1,6 @@
-# ERPNext v15 Preconfigured Installation Guide on Windows Using WSL
+# ERPNext version-15 Preconfigured Installation Guide on Windows Using WSL
 
-This guide will help you install ERPNext v15 on a Windows machine using Windows Subsystem for Linux (WSL). You can also refer to the [video guide](https://youtu.be/ZArOYSWXLWo?si=hvHfp8LLQF25QyKO) for a visual walkthrough.
+This guide will help you install ERPNext version-15 on a Windows machine using Windows Subsystem for Linux (WSL). You can also refer to the [video guide](https://youtu.be/ZArOYSWXLWo?si=hvHfp8LLQF25QyKO) I created for a visual walkthrough.
 
 ## Prerequisites
 
