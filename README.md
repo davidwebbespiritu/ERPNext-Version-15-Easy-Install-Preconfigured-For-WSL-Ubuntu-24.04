@@ -25,14 +25,13 @@ This guide will help you install ERPNext v15 on a Windows machine using Windows 
 2. Run the following command to import the ERPNext image into WSL:
 
     ```sh
-    wsl.exe --import ERPNext-v15-Ubuntu-24.04 "C:\WSL\ERPNext-v15-Ubuntu-24.04" "<path to the downloaded file>"
+    wsl.exe --import ERPNext-v15-Ubuntu-24.04 "C:\WSL\ERPNext-v15-Ubuntu-24.04" "<path to the downloaded file.tar.gz>"
     ```
 
 ### 4. Configure the Hosts File
 
-1. Open Notepad as an administrator.
-2. Open the hosts file located at `C:\Windows\System32\drivers\etc\hosts`.
-3. Add the following line at the end of the file:
+1. Edit Windows hosts file as an administrator. file located at `C:\Windows\System32\drivers\etc\hosts`.
+2. Add the following line at the end of the file:
 
     ```plaintext
     127.0.0.1    test.erpnext.local
