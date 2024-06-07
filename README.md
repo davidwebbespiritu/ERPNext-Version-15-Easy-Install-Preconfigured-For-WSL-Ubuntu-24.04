@@ -1,18 +1,17 @@
-# ERPNext v15 Installation Guide on Windows Using WSL
+# ERPNext v15 Preconfigured Installation Guide on Windows Using WSL
 
 This guide will help you install ERPNext v15 on a Windows machine using Windows Subsystem for Linux (WSL).
 
 ## Prerequisites
 
-1. **Google Drive File**: [Download the necessary file](https://drive.google.com/file/d/1PSlsKOUf2cPp-7pnS7xJgA3nb7gBH3pQ/view?usp=drive_link).
-2. **WSL**: Ensure WSL is installed on your Windows machine. If not, you can install it from the Microsoft Store.
+1. **WSL**: Ensure WSL is installed on your Windows machine. If not, you can install it from the Microsoft Store or search guide over the internet on how to have a WSL.
 
 ## Steps
 
-### 1. Download and Extract the File
+### 1. Download the File
 
 1. Click on the [Google Drive link](https://drive.google.com/file/d/1PSlsKOUf2cPp-7pnS7xJgA3nb7gBH3pQ/view?usp=drive_link).
-2. Download the file and save it to `D:\WSL\ERPNext-v15-Ubuntu-24.04.tar.gz`.
+2. Download the file and save it
 
 ### 2. Create a Directory for WSL
 
@@ -20,13 +19,13 @@ This guide will help you install ERPNext v15 on a Windows machine using Windows 
 2. Navigate to the `C:` drive.
 3. Create a new folder named `WSL`.
 
-### 3. Install ERPNext on WSL
+### 3. Install ERPNext on WSL Folder
 
 1. Open a terminal (Command Prompt or PowerShell).
 2. Run the following command to import the ERPNext image into WSL:
 
     ```sh
-    wsl.exe --import ERPNext-v15-Ubuntu-24.04 "C:\WSL\ERPNext-v15-Ubuntu-24.04" "D:\WSL\ERPNext-v15-Ubuntu-24.04.tar.gz"
+    wsl.exe --import ERPNext-v15-Ubuntu-24.04 "C:\WSL\ERPNext-v15-Ubuntu-24.04" "<path to the downloaded file>"
     ```
 
 ### 4. Configure the Hosts File
@@ -46,12 +45,13 @@ This guide will help you install ERPNext v15 on a Windows machine using Windows 
 1. Open your web browser.
 2. Navigate to `http://test.erpnext.local:8001`.
 3. Log in using the following credentials:
-    - **Username**: frappe
+    - **Username**: Administrator
     - **Password**: frappe
 
 ## Conclusion
 
 You have successfully installed ERPNext v15 on your Windows machine using WSL. If you encounter any issues or need further assistance, please refer to the official ERPNext documentation or community forums.
+The preconfigure file is base on https://github.com/D-codE-Hub/-Frappe-ERPNext-Version-15--in-Ubuntu-24.04-LTS with some extra added configure like setted it up as production
 
 ---
 
