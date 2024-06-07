@@ -30,8 +30,9 @@ This guide will help you install ERPNext v15 on a Windows machine using Windows 
 
 ### 4. Configure the Hosts File
 
-1. Edit Windows hosts file as an administrator. file located at `C:\Windows\System32\drivers\etc\hosts`.
-2. Add the following line at the end of the file:
+1. Open Notepad as an administrator.
+2. Open the hosts file located at `C:\Windows\System32\drivers\etc\hosts`.
+3. Add the following line at the end of the file:
 
     ```plaintext
     127.0.0.1    test.erpnext.local
