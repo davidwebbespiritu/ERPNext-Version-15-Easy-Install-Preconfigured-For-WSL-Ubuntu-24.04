@@ -1,6 +1,6 @@
 # ERPNext v15 Preconfigured Installation Guide on Windows Using WSL
 
-This guide will help you install ERPNext v15 on a Windows machine using Windows Subsystem for Linux (WSL).
+This guide will help you install ERPNext v15 on a Windows machine using Windows Subsystem for Linux (WSL). You can also refer to the [video guide](https://youtu.be/ZArOYSWXLWo?si=hvHfp8LLQF25QyKO) for a visual walkthrough.
 
 ## Prerequisites
 
@@ -40,7 +40,16 @@ This guide will help you install ERPNext v15 on a Windows machine using Windows 
 
 4. Save the file.
 
-### 5. Access and Setup Default ERPNext Site
+### 5. Run the Imported File
+
+1. Open a terminal (Command Prompt or PowerShell).
+2. Run the following command to start the imported ERPNext distribution:
+
+    ```sh
+    wsl --distribution ERPNext-v15-Ubuntu-24.04 --user frappe-barista
+    ```
+
+### 6. Access and Setup Default ERPNext Site
 
 1. Open your web browser.
 2. Navigate to `http://test.erpnext.local:8001`.
