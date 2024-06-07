@@ -13,7 +13,7 @@ This guide will help you install ERPNext v15 on a Windows machine using Windows 
 1. Click on the [Google Drive link](https://drive.google.com/file/d/1PSlsKOUf2cPp-7pnS7xJgA3nb7gBH3pQ/view?usp=drive_link).
 2. Download the file and save it.
 
-### 2. Create a Directory for WSL
+### 2. Create a WSL Instance Directory Folder
 
 1. Open File Explorer.
 2. Navigate to the `C:` drive.
