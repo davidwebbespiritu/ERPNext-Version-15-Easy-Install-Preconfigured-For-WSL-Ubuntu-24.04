@@ -25,7 +25,7 @@ This guide will help you install ERPNext version-15 on a Windows machine using W
 2. Run the following command to import the ERPNext image into WSL:
 
     ```sh
-    wsl.exe --import ERPNext-v15-Ubuntu-24.04 "C:\WSL\ERPNext-v15-Ubuntu-24.04" "<path to the downloaded file.tar.gz>"
+    wsl.exe --import ERPNext-Ubuntu-24.04 "C:\WSL\ERPNext-Ubuntu-24.04" "<path to the downloaded file.tar.gz>"
     ```
 
 ### 4. Configure the Hosts File
